@@ -1,0 +1,54 @@
+<html>
+<body>
+<h2></h2>
+
+
+<form action="/gamble/begins" method='post'>
+
+<div class="row">
+
+	<div class="leftcolumn">
+		<div class="font">
+		 Place your bet on dice number(1 to 6)<br><br>
+		 bet money &nbsp;<input type='text' name='stake' size="12"></input><br><br>
+		 On&emsp;&ensp;&emsp;&emsp; <input type='text' name='number'  size="12"></input>
+		 <br><br>
+		 <input type='submit' name='submit' class="bet" value='bet'></input>
+		 <br>
+		 <br>
+		 </div>
+	</div>
+
+
+	<div class="rightcolumn">
+		 <div class="total">
+			&ensp;total win<br>
+			&ensp;<input type='text' name='win' value=<%= (session[:win] || 0).to_i %> size=7><br>
+			&ensp;total loss<br>
+			&ensp;<input type='text' name='loss' value= <%= (session[:lost] || 0).to_i%> size =7><br>
+			&ensp;total profit<br>
+			&ensp;<input type='text' name='profit' value=<%= (session[:profit] || 0).to_i%> size=7>
+		</div>
+	</div>
+
+</div>	
+
+<br> <div class="win"><%= session[:message] %>
+</div>
+<div class="e"> <br>Account </div>
+
+ <div class="account">
+	&emsp;&nbsp;total win &ensp;&emsp;&ensp;
+	&emsp;&emsp;&emsp;total loss &nbsp;&emsp;&emsp;
+	&emsp;&emsp;total profit<br>
+	<input type='text' name='win' value = <%= session[:accountwin]%> class="left">
+	<input type='text' name='loss' value = <%= session[:accountloss] %> class="center">
+	<input type='text' name='profit' value = <%= session[:accountprofit] %> class="right">
+ </div>
+ </form>
+<form action='/logout' method='post'>
+<div class="logout">
+ <input type='submit' name='submit' value='Logout'></input></div>
+</form>
+</body>
+</html>

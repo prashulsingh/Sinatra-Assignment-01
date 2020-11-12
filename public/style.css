@@ -1,0 +1,177 @@
+html {background-color: white;}
+
+body {
+
+    border-color: #ADD8E6;
+    border-style: groove;
+    border: 1px line;
+    width: 500px;
+    height: 500px;
+    color: #505050;
+}
+
+
+h1 {
+    color: #505050;
+    width: 500px;
+    height: 80px;
+    text-align: left;
+    border: 3px #D3D3D3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #D3D3D3;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #505050;
+    text-align: left;
+}
+div.a {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 7%;
+}
+
+input.login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #505050;
+}
+
+input[value=Login]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #505050;
+}
+
+div.b{
+    margin-right: 12%;
+    text-align: right;
+}
+div.c{
+   
+   text-align: center;
+   font-size: 20px;
+   text-shadow: 0 0 3px #ADD8E6, 0 0 5px #ADD8E6;
+
+}
+
+input{
+   border-color: #ADD8E6;
+   background-color: white;
+   border-style: groove;
+}
+
+div.font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #505050;
+    text-align: left;
+    margin-left: 7%;
+}
+
+input[value=bet]{
+    width:5em; height: 2em;
+    text-align: center;
+    margin-left: 40%;
+}
+
+div.e{
+
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #505050;
+    text-align: left;
+    margin-left: 7%;
+}
+
+
+div.account{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #505050;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-color: #ADD8E6;
+    border-style: groove;
+    border: 1px line;
+    width: 450px;
+    height: 50px;
+
+}
+
+.left{
+    text-align: left;
+    margin-left: 5%;
+    height: 2em; width: 8em;
+}
+
+.center{
+    text-align: left;
+    margin-left: 5%;
+    height: 2em; width: 8em;
+
+}
+
+.right{
+    text-align: left;
+    margin-left: 5%;
+    height: 2em; width: 10em;
+}
+
+div.logout{
+    margin-left: 5%;
+    text-align: left;
+}
+
+input[value=Logout]{
+    width:7em; height: 2em;
+    text-align: center;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.total{
+
+    border-color: #ADD8E6;
+    border-style: groove;
+    text-align: left;
+    width: 100px;
+    height: 140px;
+
+}
+
+
+div.win{
+      background-color: #D3D3D3;
+      border-color: #ADD8E6;
+      border-style: groove;
+      margin-left: 5%;
+      width: 450px;
+      height:50px;
+      color: black;
+      font-size: 18px;
+      text-align: center;
+      text-shadow: 0 0 3px #ADD8E6, 0 0 5px #ADD8E6;
+      position: relative;
+  }
