@@ -44,7 +44,7 @@ post '/login' do
      user_logged = params[:username]
      user_password = params[:password]
      session[:message] = nil
-    #  User.first_or_create({:Username => 'prashul', :password => 'prashul'})
+     User.first_or_create({:Username => 'prashul', :password => 'prashul'})
      @user = User.get(user_logged)
     
          if @user.nil? # if user enters invalid username
